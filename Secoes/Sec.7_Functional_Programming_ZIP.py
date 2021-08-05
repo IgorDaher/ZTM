@@ -16,7 +16,8 @@ minha_lista1=['a','b','f','n','z']
 sua_lista1=[7,8,9,10]
 print(dict(zip(minha_lista1,sua_lista1)))
 #resultado
-#{'a': 7, 'b': 8, 'f': 9, 'n': 10} => veja que o item 'z' da lista 'minha_lista1' não aparece no resultado final, já que não foi pareado.
+#{'a': 7, 'b': 8, 'f': 9, 'n': 10} => veja que o item 'z' da lista 'minha_lista1' não aparece no resultado final,
+# já que não foi pareado.
 
 #ou
 

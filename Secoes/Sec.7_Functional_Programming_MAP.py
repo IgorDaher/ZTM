@@ -5,12 +5,13 @@
 #ex: map(dobrar, [1,2,3])
 # ao invés de usar a função abaixo
 #def dobrar(lista):
-#    new_list=[]    #eu substituto todas essas linhas (<-)
+#    new_list=[]    #eu substituo todas essas linhas (<-)
 #    for i in lista: (<-)
 #      new_list.append(i*2) (<-)
 #    return (new_list) (<-)
 #
 # por
+
 # def dobrar(lista):
 #    return lista*2
 
