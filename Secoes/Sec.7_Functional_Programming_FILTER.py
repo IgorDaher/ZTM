@@ -20,3 +20,4 @@ print(lista_impar)
 # mas queira apenas retornar os números impares de 'minha_lista',
 # basta dar 'print(list(filter(somente_impar, minha_lista)))
 
+

@@ -1,17 +1,18 @@
 class PlayerCharacter:  #Classe é o objeto que queremos criar. Para isso, definimos uma série de códigos que
-                        # queremos executar para quando este objeto é chamado.
-                        # Esta série de códigos são os métodos e atributos.
-                        # Eles serão utilizados para que possamos gerar o resultado desejado
-                        # quando chamamos o objeto e a ação que ele fará.
+    # queremos executar para quando este objeto é chamado.
+    # Esta série de códigos são os métodos e atributos.
+    # Eles serão utilizados para que possamos gerar o resultado desejado
+    # quando chamamos o objeto e a ação que ele fará.
     def __init__(self, name, age=0): #__init__ é um dunder method (método especial). É considerado um método construtor.
-                                    # Ele sempre é chamado quando instanciamos a classe para criar um objeto (ex: pl1 e pl2)
-                                    #self se refere ao objeto criado que será instanciado por essa classe.
+        # Ele sempre é chamado quando instanciamos a classe para criar um objeto (ex: pl1 e pl2)
+        #self se refere ao objeto criado que será instanciado por essa classe.
         self.name=name #atributos = propriedades de um objeto
         self.age=age #atributos
 
     def fala(self): #método: uma função que gera uma ação
         print(f'meu nome é {self.name} e tenho {self.age} anos')
-        return ""
+        return "" #colocamos o 'return ""' para que a função não retorne um 'None'no output,
+                  #uma vez que uma fução sem "return" gera o "None" como output
 
 
 pl1=PlayerCharacter('Igor', 42) #pl1 é um Objeto. Para criar o 'pl1 e 'pl2' nós instanciamos a classe "PlayerCharacter"
